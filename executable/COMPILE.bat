@@ -1,0 +1,3 @@
+copy readme.txt 7za_readme.txt
+copy license.txt 7za_license.txt
+perlapp --verbose --freestanding --icon logo_bez_napisow.ico --force --info "CompanyName=Poznanskie Centrum Superkomputerowo-Sieciowe;FileDescription=Konwerter OOXML dla projektu e-podreczniki;FileVersion=0.0.0.7;InternalName=konwerter_OOXML_by_docentt;LegalCopyright=Poznanskie Centrum Superkomputerowo-Sieciowe;OriginalFilename=konwerter_OOXML.exe;ProductName=Konwerter OOXML dla projektu e-podreczniki;ProductVersion=0.0.0.7" --bind 7za.exe[file=7za.exe] --bind 7za_readme.txt[file=7za_readme.txt] --bind 7za_license.txt[file=7za_license.txt] konwerter_OOXML.pl
