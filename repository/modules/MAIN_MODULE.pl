@@ -55,8 +55,8 @@ my $zip_password='';
 my @FOP_FONTS=(); #np. qw(arial.TTF ARIALBD.TTF ARIALI.TTF ARIALBI.TTF times.ttf timesbd.ttf timesi.ttf timesbi.ttf);
 my %FOP_PARAMS=(
 #nazwy wykorzystanych czcionek
-    'body.font.family'=>''; #np. 'Times',
-    'title.font.family'=>''; #np. 'Arial',
+    'body.font.family'=>'', #np. 'Times',
+    'title.font.family'=>'', #np. 'Arial',
     'page.orientation'=>'landscape',
     'toc.section.depth'=>'3',
     'body.margin.inner'=>'-0.2in',
